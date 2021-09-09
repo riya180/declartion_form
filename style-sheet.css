@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.backimg{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+
+}
+.center{				
+	width: 600px;
+	height: 650px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color:06348A;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+
+}
+#profilepic{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: relative;
+	top: -60px;
+	left: calc((600px - 120px)/2)
+
+}
+h2{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 2em;
+	word-spacing: 10px;
+	margin-top: -50px;
+	margin-bottom: 60px;
+	text-shadow: -2px 2px 1px #0A84C6;
+}
+.inputbox{
+	width: calc(100% - 60px);
+	height: 30px;
+	display: block;
+	margin: auto;
+	padding: 0 30px;
+	box-sizing: border-box;
+
+}
+::placeholder{
+	letter-spacing: 2px;
+	color: black;
+
+}
+button{
+	width: calc(100% - 60px);
+	height: 30px;
+	display: block;
+	margin: auto;
+	margin-top: 20px; 
+    color: white;
+    background-color: dodgerblue;
+    border:none; 
+
+
+}
